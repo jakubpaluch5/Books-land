@@ -1,0 +1,64 @@
+
+$(function() {
+  function show() {
+if ($(window).scrollTop() > $("#secondpage").offset().top-450) {
+$('.cards').addClass('pokaz');
+
+} else {
+
+$('.cards').removeClass('pokaz');
+}
+}
+setInterval(show, 500);
+
+});
+
+
+
+
+
+$(function() {
+  function show() {
+if ($(window).scrollTop() > $("#secondpage").offset().top-700) {
+$('.cards-reverse').addClass('animate__animated');
+$('.cards-reverse').addClass('animate__backInUp');
+
+} else {
+
+
+}
+}
+setInterval(show, 1000);
+
+});
+
+$(function() {
+  function pokaz() {
+if ($(window).scrollTop() > $("#secondpage").offset().top-450) {
+$('.navigators').addClass('show');
+
+} else {
+
+$('.navigators').removeClass('show');
+}
+}
+setInterval(pokaz, 500);
+
+
+});
+
+
+
+
+
+
+ 
+$(".navigator").click(function () {
+    $('html').animate({
+      scrollTop: $("#secondpage").offset().top
+     },
+     1000);
+   });
+
+
+

@@ -1,0 +1,16 @@
+
+
+
+                    <div class="zmien jumbotron bg-light w-25 p-3 text-dark">
+				<div class="container">
+					<h1 class="display-4">Zmiana hasła!</h1>
+					<p class="lead">
+
+
+						<form method="post" action="secret.php">
+							Stare hasło: <input name="old" type="text"></br>
+							Nowe hasło: <input name="newone" type="password"></br>
+							<p class="repeat">
+								Powtórz nowe haslo :</p> <input name="newtwo" type="password"></br>
+							<input name="add" class="btn btn-danger btn-lg" type="submit" id="add"
+								value="Zmień hasło!"><br>

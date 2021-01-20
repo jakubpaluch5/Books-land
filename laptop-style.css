@@ -1,0 +1,70 @@
+@media (max-width:1600px) {
+.card-text
+{
+    display: none;
+}
+.card-body
+{
+    text-align: center;
+}
+
+#stopka
+{
+    height: 80vh;
+}
+
+#contact
+{
+    margin-top: 10vh;
+}
+#avatary_rzad_jeden img{
+	max-width: 17%;
+	 max-height: 17%;
+	 object-fit: contain;
+	 margin-left:  4%;
+	 border-radius: 50%;
+	 border: 5px solid rgb(233, 139, 139);
+}
+#avatary_rzad_dwa img{
+	max-width: 17%;
+	 max-height: 17%;
+	 object-fit: contain;
+	 margin-left:  4%;
+	 margin-top:  3%;
+	 border-radius: 50%;
+	 border: 5px solid rgb(233, 139, 139);
+}
+#owned_book
+{
+	
+	
+	background-color: rgb(231, 229, 229);
+	font-size: 150%;
+	height: 45vh;
+	width: 100%;
+		
+	
+}
+#karty
+{
+    height: 70vh;
+}
+#FormHeader
+{
+	font-size: 30px;
+}
+form .RegFormLabel
+{
+	font-size: 15px;
+	margin: 0;
+}
+form .RegFormInput
+{
+	margin: 0.7vw;
+	width: 90%;
+}
+form #RegFormButton
+{
+	width: 90%;
+}
+}
